@@ -1,0 +1,5 @@
+# Dedicated environment for optical flow extraction
+numpy>=2.0.0
+opencv-python>=4.11.0
+opencv-contrib-python>=4.11.0
+tqdm
