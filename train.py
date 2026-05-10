@@ -124,7 +124,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-exp", default="KIDA_SAR", type=str)
     parser.add_argument("-lb", "--lambda_align", default=0.1, type=float)
-    parser.add_argument("-dp", "--data_path", default="/memory/luoyuxuan4090/SEDMamba/data", type=str)
+    parser.add_argument("-dp", "--data_path", default="./data", type=str)
     parser.add_argument("-gpu_id", default="cuda:0", type=str)
     parser.add_argument("-w", "--work", default=4, type=int)
     parser.add_argument("-s", "--seed", default=3407, type=int)
